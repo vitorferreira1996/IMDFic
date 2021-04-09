@@ -1,0 +1,28 @@
+## Atividade 01
+
+var soma := 0
+
+enquanto soma <= 100 faça
+	num := leia_inteiro
+    soma := soma + num
+
+fim
+ imprima "{soma}"
+
+---------------------------------
+## Atividade 02
+var senha := "0"
+
+enquanto senha <> "sair" faça
+	   senha := leia_texto
+    	se senha == "acertadamente" então
+        	escreva "Acesso concedido"
+            senha := "sair"
+        senão
+        	se senha == "sair" então
+            	escreva "Programa encerrado"
+            fim
+       fim       
+fim
+
+        
