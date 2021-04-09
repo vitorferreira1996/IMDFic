@@ -1,0 +1,19 @@
+var botao1 := leia_inteiro
+var botao2 := leia_inteiro
+var soma := botao1 + botao2
+
+escolha soma
+
+ caso 0 => imprima "{soma} - PROXYCITY"
+ caso 1 => imprima "{soma} - P.Y.N.G."
+ caso 2 => imprima "{soma} - DNSUEY!"
+ caso 3 => imprima "{soma} - SERVERS"
+ caso 4 => imprima "{soma} - HOST!"
+ caso 5 => imprima "{soma} - CRIPTONIZE"
+ caso 6 => imprima "{soma} - OFFLINE DAY"
+ caso 7 => imprima "{soma} - SALT"
+ caso 8 => imprima "{soma} - ANSWER!"
+ caso 9 => imprima "{soma} - RAR?"
+ caso 10 => imprima "{soma} - WIFI ANTENNAS"
+ fim
+
