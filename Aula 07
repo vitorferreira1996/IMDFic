@@ -1,0 +1,52 @@
+## Atividade 01
+
+var num := leia_numero
+var soma := 0
+
+para i de 1 até num passo 2 faça
+		soma=soma +  i
+fim
+imprima "{soma}"
+
+---------------------------
+
+## Atividade 02
+
+var  num := leia_numero
+var soma := 0
+var i:= 2
+	
+enquanto i <= num faça
+	soma = soma + i
+    i = i +2
+		
+fim
+
+imprima "{soma}"
+
+
+---------------------
+## Atividade 04
+
+var num := leia_numero
+var soma := 0
+var contador := 0
+var i :=2
+
+enquanto i <= num faça
+	var j :=1
+	enquanto j <= i faça
+    	se i mod j == 0 então
+        	contador = contador + 1
+         fim
+    j=j+1
+    fim
+	 se contador <= 2 então 
+    	soma = soma + i
+    fim
+	i=i+1
+    contador = 0
+fim
+        
+imprima "{soma}"
+
